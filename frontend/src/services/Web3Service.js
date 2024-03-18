@@ -1,6 +1,7 @@
 import Web3 from "web3";
 import ABI from "./ABI.json";
 
+// https://sepolia.etherscan.io/address/
 const CONTRACT_ADDRESS = "0x085550baB46103F15355454B4780cD769dAffFd1";
 
 export async function doLogin() {
